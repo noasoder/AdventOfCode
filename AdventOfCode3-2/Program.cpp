@@ -25,7 +25,7 @@ Program::Program()
 	std::vector<uint16_t> ints;
 	std::vector<std::string> lines;
 	std::string newLine;
-	
+
 	while (std::getline(file, newLine))
 	{
 		ints.push_back(BitsToInt(newLine));
@@ -39,7 +39,7 @@ Program::Program()
 
 Program::~Program()
 {
-	
+
 }
 
 std::vector<uint16_t> SortOut(std::vector<uint16_t> lines, int bits, bool removeLargest)
@@ -86,7 +86,7 @@ void Program::Solve(std::vector<uint16_t> lines, int bits)
 {
 	std::vector<uint16_t> oxygen = lines;
 	std::vector<uint16_t> co2 = lines;
-	
+
 	oxygen = SortOut(oxygen, bits, true);
 	co2 = SortOut(co2, bits, false);
 
