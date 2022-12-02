@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-1", "1-1\1-1.vcxproj", "{5489870B-C092-877C-490E-9E7CB516937C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-2", "1-2\1-2.vcxproj", "{5589870B-C192-877C-4A0E-9E7CB616937C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win64 = Release|Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5489870B-C092-877C-490E-9E7CB516937C}.Release|Win64.ActiveCfg = Release Win64|x64
+		{5489870B-C092-877C-490E-9E7CB516937C}.Release|Win64.Build.0 = Release Win64|x64
+		{5589870B-C192-877C-4A0E-9E7CB616937C}.Release|Win64.ActiveCfg = Release Win64|x64
+		{5589870B-C192-877C-4A0E-9E7CB616937C}.Release|Win64.Build.0 = Release Win64|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
